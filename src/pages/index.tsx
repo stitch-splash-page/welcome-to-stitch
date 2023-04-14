@@ -26,6 +26,17 @@ export default function Home() {
             <h1> image of our UI</h1>
           </div>
       </div>
+      <div>
+        <h2> Traditional REST API architecture is prone to over/underfetching data, and can be difficult to scale.
+
+GraphQL simplifies client-server requests.
+
+Once the decision has been made to migrate, implementing a GraphQL backend can be complex, tedious and error prone.
+
+This is where Stitch comes into play.
+
+Stitch is a lightweight graphQL schema generation tool. You can use stitch to load your RESTful HTTP endpoints and generate GraphQL schemas.</h2>
+      </div>
   </div>
   )
 }
