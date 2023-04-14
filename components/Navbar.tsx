@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Logo from '../public/stitchLogo.png';
+import Logo from '../public/whiteStitchLogo.png';
 import Link from 'next/link';
 // hamburger menu only shown on mobile screens. import react-icons library
 import { AiOutlineMenu } from 'react-icons/ai';
@@ -14,35 +14,28 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <nav className='flex flex-row fixed w-full h-24 shadow-xl bg-white'>
-      <div className='left-header-nav flex justify-between items-center h-full w-full px-6 2xl:px-16'>
+    <header className='py-4 shadow-xl bg-white font-sans hover:font-serif bg-gradient-to-b from-gray-900 to-gray-600'>
+      <div className=' flex items-center justify-between font-medium pl-5 pr-10'>
         <Link href='/'>
-          <Image
-            //importing the logo
-            src={Logo}
-            alt='Stitch Logo'
-            width='205'
-            height='75'
-            className='cursor-pointer'
-            priority
-          />
+          <h1 className='font-ui-sans-serif text-6xl pt-1 text-colorHunt-quatrinary'>
+          Stitch
+        </h1>
         </Link>
-
         <div className='hidden sm:flex'>
           <ul className='hidden sm:flex'>
             <Link href='/'>
-              <li className='ml-0 uppercase hover:border-b text-xl'>Home</li>
+              <li className='ml-0 font-ui-sans-serif uppercase hover:border-b text-sm'>Home</li>
             </Link>
             <Link href='/about-us'>
-              <li className='ml-10 uppercase hover:border-b text-xl'>
+              <li className='ml-10 font-ui-sans-serif  uppercase hover:border-b text-sm'>
                 About Us
               </li>
             </Link>
             <Link href='/github'>
-              <li className='ml-10 uppercase hover:border-b text-xl'>GitHub</li>
+              <li className='ml-10 font-ui-sans-serif uppercase hover:border-b text-sm'>GitHub</li>
             </Link>
             <Link href='/npm'>
-              <li className='ml-10 uppercase hover:border-b text-xl'>npm</li>
+              <li className='ml-10 font-ui-sans-serif uppercase hover:border-b text-sm'>npm</li>
             </Link>
           </ul>
         </div>
@@ -50,7 +43,7 @@ const Navbar = () => {
           <AiOutlineMenu size={25} />
         </div>
       </div>
-    </nav>
+    </header>
   );
 };
 export default Navbar;
