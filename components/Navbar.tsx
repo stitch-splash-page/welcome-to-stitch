@@ -14,10 +14,10 @@ const Navbar = () => {
     setMenuOpen(!menuOpen);
   };
   return (
-    <header className='py-4 shadow-xl bg-white font-sans hover:font-serif bg-gradient-to-b from-gray-900 to-gray-600'>
+    <header className='py-4 shadow-xl bg-white'>
       <div className=' flex items-center justify-between font-medium pl-5 pr-10'>
         <Link href='/'>
-          <h1 className='font-ui-sans-serif text-6xl pt-1 text-colorHunt-quatrinary'>
+          <h1 className='font-ui-sans-serif text-6xl text-rose-500 pt-1'>
           Stitch
         </h1>
         </Link>
@@ -26,9 +26,14 @@ const Navbar = () => {
             <Link href='/'>
               <li className='ml-0 font-ui-sans-serif uppercase hover:border-b text-sm'>Home</li>
             </Link>
-            <Link href='/about-us'>
+            <Link href='/docs'>
               <li className='ml-10 font-ui-sans-serif  uppercase hover:border-b text-sm'>
-                About Us
+                Docs
+              </li>
+            </Link>
+            <Link href='/contact-us'>
+              <li className='ml-10 font-ui-sans-serif  uppercase hover:border-b text-sm'>
+                Contact US
               </li>
             </Link>
             <Link href='/github'>

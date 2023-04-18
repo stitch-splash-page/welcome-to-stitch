@@ -11,11 +11,6 @@ module.exports = {
       monospace: ['Source Code Pro', 'monospace'],
     },
     extend: {},
-    colors: {
-      colorHunt: {
-        quatrinary: '#EC625F',
-      },
-    },
   },
   plugins: [tailwindcss('./tailwind.config.js'), require('autoprefixer')],
 };
