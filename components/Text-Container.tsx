@@ -10,7 +10,7 @@ const TextContainer = () => {
         </h2>
         <p className="pb-5 text-2xl"> This lightweight tool allows you to quickly and easily generate GraphQL schemas from your existing RESTful endpoints, simplifying the process of creating a GraphQL backend and saving you time and effort.</p>
         <div className="pt-5">
-            <Link className="bg-accent rounded border-2 border-white font-ui-sans-serif text-white px-6 py-3 hover:bg-transparent " href='/'>
+            <Link className="bg-accent rounded border-2 border-white font-ui-sans-serif text-white px-6 py-3 hover:bg-transparent " href='/docs'>
             Learn More
         </Link>
         </div>

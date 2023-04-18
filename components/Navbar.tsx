@@ -36,9 +36,11 @@ const Navbar = () => {
                 Contact US
               </li>
             </Link>
-            <Link href='/github'>
-              <li className='ml-10 font-ui-sans-serif uppercase hover:border-b text-sm'>GitHub</li>
-            </Link>
+            <div>
+
+            </div>
+              <li className='ml-10 font-ui-sans-serif uppercase hover:border-b text-sm'> <a href="https://github.com/oslabs-beta/stitch">GitHub</a></li>
+        
             <Link href='/npm'>
               <li className='ml-10 font-ui-sans-serif uppercase hover:border-b text-sm'>npm</li>
             </Link>
