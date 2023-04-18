@@ -1,11 +1,10 @@
-//next/image component uses browser native lazy loading
-import Image from 'next/image'
 // built-in component for appending elements to the head of the page
 import Head from 'next/head';
 import { NextSeo } from "next-seo";
 import Hero from '../../components/Hero';
-import AboutStitch from "../../components/AboutStitch"
+import AboutStitch from "../../components/AboutStitch";
 import TextContainer from '../../components/Text-Container';
+import ContactUs from "../../components/ContactUs";
 
 export default function Home() {
   return(
@@ -22,8 +21,8 @@ export default function Home() {
       <Hero/>
       <AboutStitch />
       <TextContainer />
-
+      <ContactUs />
   </div>
   </>
-  )
-}
+  );
+};

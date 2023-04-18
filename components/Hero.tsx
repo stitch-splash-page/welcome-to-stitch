@@ -1,8 +1,7 @@
 import React from "react";
-import HeroImg from "../public/graphQl_schema.png"
+import HeroImg from "../public/graphQl_schema.png";
 import Image from "next/image";
 import Link from "next/link";
-
 
 const Hero = () => {
     return (
@@ -15,15 +14,16 @@ const Hero = () => {
             <p className="py-5">
             A lightweight GraphQL schema generation tool
             </p>
-            <Link className=" btn bg-accent border-2 border-rose-500 font-ui-sans-serif text-rose-500 px-6 py-3 hover:bg-transparent "
+            <Link className="btn bg-accent border-2 border-rose-500 font-ui-sans-serif text-rose-500 px-6 py-3 hover:bg-transparent rounded-md"
             href='/'>
                 Get Started
             </Link>
         </div>
         <div className="hero-img flex justify-end">
             <Image
+            className="rounded-3xl"
             src={HeroImg}
-            alt="Picture of the author"
+            alt=" "
             width={800}
             height={800}
             />
@@ -32,5 +32,4 @@ const Hero = () => {
             </section>
     );
 };
-
 export default Hero;

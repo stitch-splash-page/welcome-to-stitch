@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Logo from '../public/whiteStitchLogo.png';
 import Link from 'next/link';
 // hamburger menu only shown on mobile screens. import react-icons library
 import { AiOutlineMenu } from 'react-icons/ai';
