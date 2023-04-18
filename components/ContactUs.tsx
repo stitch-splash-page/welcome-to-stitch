@@ -4,6 +4,7 @@ import cookieMonster from "../public/cookieMonster.png";
 import jenny from "../public/jenny.png";
 import nicole from "../public/nicole.png";
 import harrison from "../public/harrison.png";
+import keith from "../public/keith.png";
 
 const ContactUs = () => {
     return (
@@ -49,7 +50,7 @@ const ContactUs = () => {
                 <div className="single-contributor col-span-2 flex flex-col  items-center">
             <Image
             className="rounded-full"
-            src={cookieMonster}
+            src={keith}
             alt="Picture of contributor"
             width={100}
             height={100}
