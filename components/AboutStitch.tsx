@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
     return (
-    <section className=" font-sans px-5 py-20 border-solid border-9 border-amber-100  bg-white ">
+    <section className="font-sans px-5 py-20 border-solid border-9 border-amber-100 bg-white ">
         <div className=" container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-between ">
         <div className="about-info">
             <h1 className="text-7xl font-bold mb-5 border-b-[5px]border-rose-500 pb-2">
@@ -18,7 +18,7 @@ const About = () => {
         <div className="about-img flex justify-end">
             {/* <Image
         src={AboutImg}
-        alt="Picture of the author"
+        alt=""
         width={500}
         height={500}
     /> */}
