@@ -27,7 +27,7 @@ const Navbar = () => {
                 Docs
               </li>
             </Link>
-            <Link href='/contact'>
+            <Link href='/contactUs'>
               <li className='ml-10 font-ui-sans-serif  uppercase hover:border-b text-sm'>
                 Contact US
               </li>

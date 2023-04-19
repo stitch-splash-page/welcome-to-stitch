@@ -4,7 +4,7 @@ import { NextSeo } from "next-seo";
 import Hero from '../../components/Hero';
 import AboutStitch from "../../components/AboutStitch";
 import TextContainer from '../../components/Text-Container';
-import MeetTheTeam from "../../components/MeetTheTeam";
+import Creators from "../../components/Creators";
 
 export default function Home() {
   return(
@@ -21,7 +21,7 @@ export default function Home() {
       <Hero/>
       <AboutStitch />
       <TextContainer />
-      <MeetTheTeam />
+      <Creators />
   </div>
   </>
   );
