@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-evenly">
             <div className="hero-info pb-5 md:pb-0">
             <h1 className="text-4xl lg:text-6xl">
-             Restful API to GraphQl
+            Restful API to GraphQl
             </h1>
             <p className="py-5">
             A lightweight GraphQL schema generation tool

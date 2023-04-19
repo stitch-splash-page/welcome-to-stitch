@@ -13,11 +13,13 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
+    "baseUrl": ".",
     "incremental": true,
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "types": ["node", "react", "react-dom", "next"]
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "component/Layouts.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/layouts.tsx"],
   "exclude": ["node_modules"]
 }
