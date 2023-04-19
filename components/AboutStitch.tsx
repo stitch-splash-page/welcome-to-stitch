@@ -16,12 +16,6 @@ const About = () => {
             </p>
         </div>
         <div className="about-img flex justify-end">
-            {/* <Image
-        src={AboutImg}
-        alt=""
-        width={500}
-        height={500}
-    /> */}
     <div className="max-w-xl mx-auto">
     <div className="relative group">
       <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
