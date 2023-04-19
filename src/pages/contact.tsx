@@ -1,15 +1,15 @@
 import React from "react";
 import Image from "next/image";
-import jenny from "../public/jenny.png";
-import nicole from "../public/nicole.png";
-import harrison from "../public/harrison.png";
-import keith from "../public/keith.png";
-import nate from "../public/nate.png";
+import jenny from "../../public/jenny.png";
+import nicole from "../../public/nicole.png";
+import harrison from "../../public/harrison.png";
+import keith from "../../public/keith.png";
+import nate from "../../public/nate.png";
 const ContactUs = () => {
     return (
     <div>
-        <section className="text-center md:w-[60%] mx-auto mt-5 mb-5 pt-4">
-         <h1 className='font-ui-sans-serif text-6xl text-rose-500 mb-6 pb-9'>Stitch Team</h1>
+        <section className=" h-screen text-center md:w-[60%] mx-auto mt-5 mb-5 pt-4">
+         <h1 className='font-ui-sans-serif text-6xl text-rose-500 mb-6 pb-9'>Meet the Team</h1>
         <div className="bio-container font-ui-sans-serif items-center grid grid-cols-6 gap-4 pb-8"> 
             <div className="single-contributor col-span-2 flex flex-col  items-center">
             <Image
