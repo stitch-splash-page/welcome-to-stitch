@@ -5,11 +5,13 @@ import nicole from "../../public/nicole.png";
 import harrison from "../../public/harrison.png";
 import keith from "../../public/keith.png";
 import nate from "../../public/nate.png";
+import Link from "next/link";
 const ContactUs = () => {
     return (
     <div>
-        <section className=" h-screen text-center md:w-[60%] mx-auto mt-5 mb-5 pt-4">
-         <h1 className='font-ui-sans-serif text-6xl text-rose-500 mb-6 pb-9'>Meet the Team</h1>
+        <section id="meetTheTeam" className="text-center md:w-[60%] mx-auto mt-5 mb-5 py-7 ">
+            <div className=" border-4 border-solid border-rose-500">
+         <h1 className='font-barlow text-6xl text-rose-500 pt-2 pb-4 mb-5 underline decoration-rose-500/[.2] mx-auto pb-2"'>Meet the Team</h1>
         <div className="bio-container font-ui-sans-serif items-center grid grid-cols-6 gap-4 pb-8"> 
             <div className="single-contributor col-span-2 flex flex-col  items-center">
             <Image
@@ -187,7 +189,21 @@ const ContactUs = () => {
             </div>
                 </div>
                 </div>
+                </div>
+                
             </section>
+            <div id="emailUs" className="max-w-xl mx-auto pb-9">
+    <div className="relative group">
+      <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+      <div className="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-center space-x-6">
+        <div className="space-y-2">
+          <p className="font-barlow text-3xl text-rose-500">
+                        Email Us: <span className="text-blue-600">info.stitchql@gmail.com</span>
+                    </p>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
 );
 };
