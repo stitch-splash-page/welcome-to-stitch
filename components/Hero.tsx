@@ -26,7 +26,7 @@ const Hero = () => {
             alt=" "
             width={800}
             height={800}
-            priority
+            priority={true}
             />
             </div>
             </div>
