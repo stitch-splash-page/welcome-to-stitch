@@ -10,7 +10,7 @@ return (
     <div>
         <section id="meetTheTeam" className="text-center md:w-[60%] mx-auto mt-5 mb-5 py-7 ">
             <div className=" border-4 border-solid border-rose-500">
-         <h1 className='font-[barlow] text-6xl text-rose-500 pt-2 pb-4 mb-5 underline decoration-rose-500/[.2] mx-auto pb-2"'>Meet the Team</h1>
+         <h1 className='font-barlow text-6xl text-rose-500 pt-2 pb-4 mb-5 underline decoration-rose-500/[.2] mx-auto pb-2"'>Meet the Team</h1>
         <div className="bio-container font-ui-sans-serif items-center grid grid-cols-6 gap-4 pb-8"> 
             <div className="single-contributor col-span-2 flex flex-col  items-center">
             <Image
