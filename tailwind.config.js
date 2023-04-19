@@ -10,7 +10,11 @@ module.exports = {
       display: ['La Belle Aurore', 'cursive'],
       monospace: ['Source Code Pro', 'monospace'],
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        barlow: ['Barlow Semi Condensed', 'sans-serif'],
+      },
+    },
   },
   plugins: [tailwindcss('./tailwind.config.js'), require('autoprefixer')],
 };
