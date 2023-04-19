@@ -13,7 +13,7 @@ const Navbar = () => {
     <header className='py-4 shadow-xl bg-white'>
       <div className='flex items-center justify-between font-medium pl-5 pr-10'>
         <Link href='/'>
-          <h1 className='font-ui-sans-serif text-6xl text-rose-500 pt-1'>
+          <h1 className='font-barlow bold text-6xl text-rose-500 pt-1'>
             Stitch
           </h1>
         </Link>
