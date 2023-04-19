@@ -191,12 +191,12 @@ return (
                 </div>
                 
             </section>
-            <div id="emailUs" className="max-w-xl mx-auto pb-9">
+            <div id="emailUs" className="max-w-sm mx-auto pb-9">
     <div className="relative group">
       <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-      <div className="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-center space-x-6">
-        <div className="space-y-2">
-          <p className="font-barlow text-3xl text-rose-500">
+      <div className="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-center space-x-2">
+        <div className="space-y-1">
+          <p className="font-barlow text-xl text-rose-500">
                         Email Us: <span className="text-blue-600">info.stitchql@gmail.com</span>
                     </p>
       </div>
