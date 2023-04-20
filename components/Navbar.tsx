@@ -11,7 +11,7 @@ const Navbar = () => {
   };
   return (
     <header className='py-4 shadow-xl bg-white'>
-      <div className='flex items-center justify-between font-medium pl-5 pr-10'>
+      <div className='flex items-center justify-between font-medium pl-6 pr-10'>
         <Link href='/'>
           <h1 className='font-barlow bold text-6xl text-rose-500 pt-1'>
             Stitch
@@ -35,9 +35,7 @@ const Navbar = () => {
             <li className='ml-10 font-ui-sans-serif uppercase hover:border-b text-sm'> 
               <a href="https://github.com/oslabs-beta/stitch">GitHub</a>
             </li>
-            <Link href='/npm'>
-              <li className='ml-10 font-ui-sans-serif uppercase hover:border-b text-sm'>npm</li>
-            </Link>
+              <li className='ml-10 font-ui-sans-serif uppercase hover:border-b text-sm'> <a href="stitch-ql.app">Start</a> </li>
           </ul>
         </div>
         <div onClick={handleNav} className='sm:hidden cursor-pointer pl-24'>

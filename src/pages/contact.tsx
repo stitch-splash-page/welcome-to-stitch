@@ -10,7 +10,7 @@ return (
     <div>
         <section id="meetTheTeam" className="text-center md:w-[60%] mx-auto mt-5 mb-5 py-7 ">
             <div className=" border-4 border-solid border-rose-500">
-         <h1 className='font-barlow text-6xl text-rose-500 pt-2 pb-4 mb-5 underline decoration-rose-500/[.2] mx-auto pb-2"'>Meet the Team</h1>
+        <h1 className='font-barlow text-6xl text-rose-500 pt-2 pb-4 mb-5 underline decoration-rose-500/[.2] mx-auto pb-2"'>Creators</h1>
         <div className="bio-container font-ui-sans-serif items-center grid grid-cols-6 gap-4 pb-8"> 
             <div className="single-contributor col-span-2 flex flex-col  items-center">
             <Image
@@ -55,8 +55,8 @@ return (
             width={100}
             height={100}
             />
-              <p className="pt-3 pb-1">
-                 <a href="https://www.linkedin.com/in/keith-falcon-2750934a/" className="underline decoration-rose-500 text-gray">Keith Falcon</a>
+            <p className="pt-3 pb-1">
+                <a href="https://www.linkedin.com/in/keith-falcon-2750934a/" className="underline decoration-rose-500 text-gray">Keith Falcon</a>
             </p>
             <div className="flex items-center">
             <a href="https://github.com/falc0neye" className="text-neutral-800 dark:text-neutral-200 pl-2 pr-1">
@@ -125,8 +125,8 @@ return (
             width={100}
             height={100}
             />
-             <p className="pt-3 pb-1">
-                 <a href="https://www.linkedin.com/in/nicoleyoung7501" className="underline decoration-rose-500 text-gray">Nicole Young</a>
+            <p className="pt-3 pb-1">
+                <a href="https://www.linkedin.com/in/nicoleyoung7501" className="underline decoration-rose-500 text-gray">Nicole Young</a>
             </p>
             <div className="flex items-center">
             <a href="https://github.com/nyoung19" className="text-neutral-800 dark:text-neutral-200 pl-2 pr-1">
@@ -194,14 +194,14 @@ return (
             <div id="emailUs" className="max-w-sm mx-auto pb-9">
     <div className="relative group">
       <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-lg blur opacity-25 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
-      <div className="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-center space-x-2">
+    <div className="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-center space-x-2">
         <div className="space-y-1">
-          <p className="font-barlow text-xl text-rose-500">
-                        Email Us: <span className="text-blue-600">info.stitchql@gmail.com</span>
+        <p className="font-barlow text-xl text-rose-500">
+                        Email: <span className="text-blue-600">info.stitchql@gmail.com</span>
                     </p>
-      </div>
     </div>
-  </div>
+    </div>
+</div>
 </div>
         </div>
 );
