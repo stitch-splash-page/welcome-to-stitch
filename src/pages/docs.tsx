@@ -1,4 +1,5 @@
-
+import Image from "next/image";
+import demo from "../../public/demo.gif"
 const Docs = () => {
     return (
         <div className="grid grid-cols-5">
@@ -20,7 +21,7 @@ const Docs = () => {
                 </li>
             </ul>
             </nav>
-            <section className="col-start-2 col-end-7 py-7">
+            <section className="col-start-2 col-end-7 py-6">
                 <div className="py-4">
                 <h1 id="basic-usage" className="font-semibold text-lg px-8"> Adding Endpoints</h1>
             <b/>
@@ -87,7 +88,14 @@ const Docs = () => {
             </span> and select the desired schema view.
             </p>
             </div>
-            
+            <div className="pl-9">
+            <Image
+            src={demo}
+            alt="Picture of contributor"
+            width={800}
+            height={800}
+            />    
+            </div>
             </section>
         </div>
     );
