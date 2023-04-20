@@ -57,15 +57,15 @@ const Navbar = () => {
               <Link href='/docs'>
                 <li className='block my-4 font-ui-sans-serif uppercase text-lg'>Docs</li>
               </Link>
-              <Link href='/contact-us'>
+              <Link href='/contact'>
                 <li className='block my-4 font-ui-sans-serif uppercase text-lg'>Contact US</li>
               </Link>
               <li className='block my-4 font-ui-sans-serif uppercase text-lg'> 
                 <a href="https://github.com/oslabs-beta/stitch">GitHub</a>
               </li>
-              <Link href='/npm'>
-                <li className='block my-4 font-ui-sans-serif uppercase text-lg'>npm</li>
-              </Link>
+              <li className='block my-4 font-ui-sans-serif uppercase text-lg'> 
+                <a href="stitch-ql.app">Start</a>
+              </li>
             </ul>
           </div>
         </div>
