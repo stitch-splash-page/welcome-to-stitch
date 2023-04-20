@@ -197,13 +197,14 @@ return (
     <div className="relative px-7 py-6 bg-white ring-1 ring-gray-900/5 rounded-lg leading-none flex items-top justify-center space-x-2">
         <div className="space-y-1">
         <p className="font-barlow text-xl text-rose-500">
-                        Email: <span className="text-blue-600">info.stitchql@gmail.com</span>
-                    </p>
+        Email Us: <span className="text-blue-600 underline"> <a href="mailto:info.stitchql@gmail.com ">info.stitchql@gmail.com </a>
+</span>
+    </p>         
     </div>
     </div>
 </div>
 </div>
-        </div>
+</div>
 );
 };
 export default ContactUs;

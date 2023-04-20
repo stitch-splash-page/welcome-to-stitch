@@ -30,7 +30,8 @@ const About = () => {
             />
         <div className="space-y-2"> 
           <p className="text-slate-800">Medium</p>
-          <a href="/" className="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank">  Read Article →</a>
+          <a href="https://medium.com/@info.stitchql/rest-apis-to-graphql-switch-with-stitch-7c83ade0eb2a" className="block text-indigo-400 group-hover:text-slate-800 transition duration-200" target="_blank">  Read Article →</a>
+          
       </div>
     </div>
   </div>
