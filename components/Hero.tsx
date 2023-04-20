@@ -11,19 +11,19 @@ const Hero = () => {
             <h1 className="text-4xl lg:text-6xl">
             Restful API to GraphQl
             </h1>
-            <p className="py-5">
+            <p className="py-5 pb-8">
             A lightweight GraphQL schema generation tool
             </p>
-            <Link className="btn bg-accent border-2 border-rose-500 font-ui-sans-serif text-rose-500 px-6 py-3 hover:bg-transparent rounded-md"
-            href='/'>
+            <a className="btn bg-accent border-2 border-rose-500 font-ui-sans-serif pt-3 text-rose-500 px-6 py-3 hover:bg-transparent rounded-md"
+            href='/stitch-ql.app'>
                 Get Started
-            </Link>
+            </a>
         </div>
         <div className="hero-img flex justify-end">
             <Image
             className="rounded-3xl"
             src={HeroImg}
-            alt=" "
+            alt="GraphQl Schema"
             width={800}
             height={800}
             priority={true}

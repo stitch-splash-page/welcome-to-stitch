@@ -10,7 +10,7 @@ const Creators = () => {
     return (
     <div>
         <section className="text-center md:w-[60%] mx-auto mt-5 mb-5 pt-4">
-         <h1 className='font-ui-sans-serif text-4xl text-rose-500 mb-6 pb-9'>Creators</h1>
+        <h1 className='font-barlow text-4xl text-rose-500 underline decoration-rose-500/[.2] mb-6 pb-9'>Meet the Team</h1>
         <div className="bio-container font-ui-sans-serif items-center grid grid-cols-6 gap-4 pb-8"> 
             <div className="single-contributor col-span-2 flex flex-col  items-center">
             <Image
@@ -23,7 +23,7 @@ const Creators = () => {
             <p className="pt-3 pb-1">
                 <a href="https://www.linkedin.com/in/harrison-shih-8a021578/" className=" underline decoration-rose-500 text-gray">Harrison Shih</a>
             </p>
-             <div className="flex items-center">
+            <div className="flex items-center">
             <a href="https://github.com/LatteBoy" className="text-neutral-800 dark:text-neutral-200 pl-2 pr-1">
         <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -55,8 +55,8 @@ const Creators = () => {
             width={100}
             height={100}
             />
-              <p className="pt-3 pb-1">
-                 <a href="https://www.linkedin.com/in/keith-falcon-2750934a/" className="underline decoration-rose-500 text-gray">Keith Falcon</a>
+            <p className="pt-3 pb-1">
+                <a href="https://www.linkedin.com/in/keith-falcon-2750934a/" className="underline decoration-rose-500 text-gray">Keith Falcon</a>
             </p>
             <div className="flex items-center">
             <a href="https://github.com/falc0neye" className="text-neutral-800 dark:text-neutral-200 pl-2 pr-1">
@@ -125,8 +125,8 @@ const Creators = () => {
             width={100}
             height={100}
             />
-             <p className="pt-3 pb-1">
-                 <a href="https://www.linkedin.com/in/nicoleyoung7501" className="underline decoration-rose-500 text-gray">Nicole Young</a>
+            <p className="pt-3 pb-1">
+                <a href="https://www.linkedin.com/in/nicoleyoung7501" className="underline decoration-rose-500 text-gray">Nicole Young</a>
             </p>
             <div className="flex items-center">
             <a href="https://github.com/nyoung19" className="text-neutral-800 dark:text-neutral-200 pl-2 pr-1">
@@ -160,8 +160,8 @@ const Creators = () => {
             width={100}
             height={100}
             />
-               <p className="pt-3 pb-1">
-                 <a href="https://www.linkedin.com/in/jennyjennyoh/" className="underline decoration-rose-500 text-gray">Jenny Oh</a>
+            <p className="pt-3 pb-1">
+                <a href="https://www.linkedin.com/in/jennyjennyoh/" className="underline decoration-rose-500 text-gray">Jenny Oh</a>
             </p>
             <div className="flex items-center">
             <a href="https://github.com/jennyjennyoh" className="text-neutral-800 dark:text-neutral-200 pl-2 pr-1">
