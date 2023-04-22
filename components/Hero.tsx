@@ -15,8 +15,8 @@ const Hero = () => {
             A lightweight GraphQL schema generation tool
             </p>
             <a className="btn bg-accent border-2 border-rose-500 font-ui-sans-serif pt-3 text-rose-500 px-6 py-3 hover:bg-transparent rounded-md"
-            href='/stitch-ql.app'>
-                Get Started
+            href=''>
+                Coming Soon
             </a>
         </div>
         <div className="hero-img flex justify-end">

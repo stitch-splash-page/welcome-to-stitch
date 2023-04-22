@@ -63,9 +63,9 @@ const Navbar = () => {
               <li className='block my-4 font-ui-sans-serif uppercase text-lg'> 
                 <a href="https://github.com/oslabs-beta/stitch">GitHub</a>
               </li>
-              <li className='block my-4 font-ui-sans-serif uppercase text-lg'> 
+              {/* <li className='block my-4 font-ui-sans-serif uppercase text-lg'> 
                 <a href="stitch-ql.app">Start</a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>
