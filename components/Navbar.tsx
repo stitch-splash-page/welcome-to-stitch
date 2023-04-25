@@ -35,7 +35,7 @@ const Navbar = () => {
             <li className='ml-10 font-ui-sans-serif uppercase hover:border-b text-sm'> 
               <a href="https://github.com/oslabs-beta/stitch">GitHub</a>
             </li>
-              <li className='ml-10 font-ui-sans-serif uppercase hover:border-b text-sm'> <a href="stitch-ql.app">Start</a> </li>
+              {/* <li className='ml-10 font-ui-sans-serif uppercase hover:border-b text-sm'> <a href="stitch-ql.app">Start</a> </li> */}
           </ul>
         </div>
         <div onClick={handleNav} className='sm:hidden cursor-pointer pl-24'>
