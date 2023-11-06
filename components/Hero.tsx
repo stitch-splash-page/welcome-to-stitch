@@ -8,7 +8,7 @@ const Hero = () => {
     <section className='flex justify-center px-5 text-gray py-32 h-screen bg-gradient-to-br from-slate-50 via-slate-50 to-rose-500'>
       <div className='container mx-auto grid md:grid-cols-2 items-center justify-center md:justify-evenly'>
         <div className='hero-info pb-5 md:pb-0'>
-          <h1 className='text-4xl lg:text-6xl'>Restful API to GraphQl</h1>
+          <h1 className='text-4xl lg:text-6xl'>RESTful APIs to GraphQL</h1>
           <p className='py-5 pb-8'>
             A lightweight GraphQL schema generation tool
           </p>
