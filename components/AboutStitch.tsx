@@ -11,10 +11,10 @@ const About = () => {
             About Stitch
             </h1>
             <p className="pb-5 text-2xl">
-                Looking to migrate from a traditional REST API to GraphQL but don&apos;t want to deal with the complexity and tedium of implementation? 
+                Looking to migrate from RESTful API architecture to GraphQL but don&apos;t want to deal with the complexity and tedium of implementation? 
             </p>
             <p className="pb-5 text-2xl">
-                This is where  <span className="font-bold">Stich</span>  comes into play. 
+                This is where  <span className="font-bold">Stitch</span>  comes into play. 
             </p>
         </div>
         <div className="about-img flex justify-end">
